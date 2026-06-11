@@ -9,12 +9,28 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This router handles network traffic by analyzing packet headers and routing them to the appropriate destination based on configured rules. The design uses a state machine approach to process incoming packets efficiently.
 
 ## How to test
 
-Explain how to use your project
+1. Set up test packets with different destination addresses
+2. Configure routing rules in the configuration file
+3. Run the router and verify packets are routed to expected outputs
+4. Monitor the debug logs to confirm correct path selection
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+## How it works
+
+This router handles network traffic by analyzing packet headers and routing them to the appropriate destination based on configured rules. The design uses a state machine approach to process incoming packets efficiently.
+
+## How to test
+
+1. Set up test packets with different destination addresses
+2. Configure routing rules in the configuration file
+3. Run the router and verify packets are routed to expected outputs
+4. Monitor the debug logs to confirm correct path selection
+
+## External hardware
+
+No external hardware required.
